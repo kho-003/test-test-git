@@ -1,0 +1,22 @@
+@use "../../base" as *;
+
+#top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .top_inner {
+    .catch_copy {
+      p {
+        color: $wht;
+        font-size: 8rem;
+        mix-blend-mode: difference;
+      }
+    }
+  }
+}
